@@ -172,7 +172,7 @@ replace (
 	// TODO Remove it: https://github.com/cosmos/cosmos-sdk/issues/10409
 	github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.8.1
 	github.com/gogo/gateway => github.com/notional-labs/gateway v1.1.1-0.20220417180718-8e60e17a098d
-	github.com/tendermint/tendermint => github.com/ZaradarTR/tendermint v0.37.0-alpha.2-tc2.0-patch-final
+	github.com/tendermint/tendermint => github.com/ZaradarTR/tendermint v0.37.0-alpha.3-tc2.0-patch-final
 )
 
 retract v0.43.0
