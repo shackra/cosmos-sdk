@@ -32,7 +32,8 @@ application.
 			}
 			app := appCreator(ctx.Logger, db, nil, ctx.Viper)
 			// rollback tendermint state
-			height, hash, err := tmcmd.RollbackState(ctx.Config)
+			// TODO: should we remove the block?
+			height, hash, err := tmcmd.RollbackState(ctx.Config, false)
 			if err != nil {
 				return fmt.Errorf("failed to rollback tendermint state: %w", err)
 			}
